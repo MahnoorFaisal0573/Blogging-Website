@@ -5,7 +5,7 @@ on:
     branches:
       - develop
 
-permissions:  
+permissions:
   id-token: write
   contents: write
 
@@ -30,7 +30,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: dist
+          path: dist  # Ensure this is the correct folder for the build output
 
   deploy:
     runs-on: ubuntu-latest
