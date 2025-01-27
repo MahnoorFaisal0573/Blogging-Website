@@ -1,13 +1,20 @@
-12
-60C:\Users\hp\Documents\assig4\Blogging-Website\src\index.html133824713025427823 0
+19
+68C:\Users\hp\Documents\assig4\Blogging-Website\dist\index.447059e2.js133824796830874343 0
+60C:\Users\hp\Documents\assig4\Blogging-Website\src\styles.css133824795191070045 0
 53C:\Users\hp\Documents\assig4\Blogging-Website\.github133824704237333476 1
 58C:\Users\hp\Documents\assig4\Blogging-Website\package.json133824740183046533 0
+63C:\Users\hp\Documents\assig4\Blogging-Website\package-lock.json133824788727681613 0
 56C:\Users\hp\Documents\assig4\Blogging-Website\.gitignore133824699841539771 0
-50C:\Users\hp\Documents\assig4\Blogging-Website\dist133824740620524146 1
+50C:\Users\hp\Documents\assig4\Blogging-Website\dist133824796831527983 1
 55C:\Users\hp\Documents\assig4\Blogging-Website\README.md133824697842568617 0
-49C:\Users\hp\Documents\assig4\Blogging-Website\src133824738148494644 1
+49C:\Users\hp\Documents\assig4\Blogging-Website\src133824795535446010 1
 52C:\Users\hp\Documents\assig4\Blogging-Website\styles133824699739976898 1
+60C:\Users\hp\Documents\assig4\Blogging-Website\src\index.html133824796400248880 0
+57C:\Users\hp\Documents\assig4\Blogging-Website\src\main.js133824718295204586 0
+69C:\Users\hp\Documents\assig4\Blogging-Website\dist\index.05e5b52c.css133824796830868231 0
+73C:\Users\hp\Documents\assig4\Blogging-Website\dist\index.05e5b52c.css.map133824796831497999 0
+72C:\Users\hp\Documents\assig4\Blogging-Website\dist\index.447059e2.js.map133824796831497999 0
 63C:\Users\hp\Documents\assig4\Blogging-Website\.github\workflows133824709921390200 1
-61C:\Users\hp\Documents\assig4\Blogging-Website\dist\index.html133824740620474062 0
-87C:\Users\hp\Documents\assig4\Blogging-Website\.github\workflows\deploy-development.yaml133824710319013152 0
+61C:\Users\hp\Documents\assig4\Blogging-Website\dist\index.html133824796830868231 0
+87C:\Users\hp\Documents\assig4\Blogging-Website\.github\workflows\deploy-development.yaml133824787828649091 0
 82C:\Users\hp\Documents\assig4\Blogging-Website\.github\workflows\pr-validation.yaml133824704928340803 0
