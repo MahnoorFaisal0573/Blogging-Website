@@ -5,6 +5,10 @@ on:
     branches:
       - develop
 
+permissions:  
+  id-token: write
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,7 +28,7 @@ jobs:
         run: npx parcel build src/index.html
 
       - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v1
         with:
           path: dist
 
