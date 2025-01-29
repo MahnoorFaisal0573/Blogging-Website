@@ -5,37 +5,20 @@ on:
     branches:
       - develop
 
-permissions:
-  id-token: write
-  contents: write
-  pages: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-
-      - name: Set Up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-
-      - name: Install Dependencies
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies
         run: npm install
-
-      - name: Build Website
-        run: npx parcel build src/index.html
-
-      - name: Verify Build Output
-        run: ls -la dist
-
-      - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Build website
+        run: npx parcel build src/index.html --out-dir dist
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dist
-          name: github-pages
 
   deploy:
     runs-on: ubuntu-latest
@@ -43,6 +26,3 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          artifact_name: github-pages
